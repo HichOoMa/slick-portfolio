@@ -13,7 +13,6 @@
 	import Button from '../ui/button/button.svelte';
 	import { CardHeader } from '../ui/card';
 	import CardContent from '../ui/card/card-content.svelte';
-	import CardFooter from '../ui/card/card-footer.svelte';
 	import CardTitle from '../ui/card/card-title.svelte';
 	import FancyCard from '../ui/card/fancy-card.svelte';
 	import {
@@ -92,16 +91,18 @@
 			<Icon icon="i-carbon-time" />
 			<Muted>{exactDuration}</Muted>
 		</Muted>
-		<Muted className="flex-1">{ellipsify(project.shortDescription, 100)}</Muted>
+		<Muted className="py-4 md:py-2 md:min-h-[100px] md:max-h-[100px]"
+			>{ellipsify(project.shortDescription, 100)}</Muted
+		>
 		<div class="flex w-full flex-row items-center justify-between">
 			<Badge variant="outline">{from}</Badge>
 			<Badge variant="outline">{to}</Badge>
 		</div>
 		<Separator />
+		<div class="flex flex-row flex-wrap items-center gap-2">
+			{#each project.skills as skill (skill.slug)}
+				<SkillBadge {skill} />
+			{/each}
+		</div>
 	</CardContent>
-	<CardFooter class="flex flex-row flex-wrap items-center gap-2">
-		{#each project.skills as skill (skill.slug)}
-			<SkillBadge {skill} />
-		{/each}
-	</CardFooter>
 </FancyCard>

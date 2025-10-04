@@ -36,14 +36,24 @@
 
 	const getResult = (q: string): Array<Group> => {
 		const skills = SkillsData.items.filter((it) => it.name.toLowerCase().includes(q.toLowerCase()));
+
 		const projects = ProjectsData.items.filter((it) =>
 			it.name.toLowerCase().includes(q.toLowerCase())
 		);
-		const experience = ExperienceData.items.filter((it) =>
-			it.name.toLowerCase().includes(q.toLowerCase())
+
+		const experience = ExperienceData.items.filter(
+			(it) =>
+				it.name.toLowerCase().includes(q.toLowerCase()) ||
+				it.company.toLowerCase().includes(q) ||
+				it.location.toLowerCase().includes(q)
 		);
-		const education = EducationData.items.filter((it) =>
-			it.name.toLowerCase().includes(q.toLowerCase())
+
+		const education = EducationData.items.filter(
+			(it) =>
+				it.name.toLowerCase().includes(q.toLowerCase()) ||
+				it.degree.toLowerCase().includes(q) ||
+				it.location.toLowerCase().includes(q) ||
+				it.organization.toLowerCase().includes(q)
 		);
 
 		const groups: Array<Group> = [];

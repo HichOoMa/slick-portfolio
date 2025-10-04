@@ -4,65 +4,138 @@ import type { Project } from './types';
 
 const items: Array<Project> = [
 	{
-		slug: 'slick-portfolio-angular',
-		color: '#5e95e3',
+		slug: 'crypto-analyser-trader-bot',
+		color: '#f7931e',
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'SaaS platform for crypto analytics and automated trading. Provides dashboards to track market trends, generate predictive signals, and run backtesting simulations. Built with a multi-tenant architecture, Redis caching for real-time computations, and MongoDB for market/user data. Hybrid deployment model using serverless functions (Vercel) for elastic workloads and EC2 containers for persistent services.',
 		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'SaaS platform for crypto analytics and automated trading with real-time market analysis and backtesting capabilities.',
 		links: [
-			{ to: 'https://github.com/', label: 'GitHub' },
-			{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'Reporsitory' },
-			{ to: 'https://svelte.dev/', label: 'Svelte' },
-			{ to: 'https://www.shadcn-svelte.com/', label: 'Shadcn Svelte' }
+			{ to: 'https://himonacci.space', label: 'Live Demo' },
 		],
 		logo: Assets.Unknown,
-		name: 'Slick Portfolio With Svelte',
+		name: 'Crypto Analyser & Trader Bot',
 		period: {
-			from: new Date()
+			from: new Date(2023, 0, 1)
 		},
-		skills: getSkills('angular', 'ts', 'tailwind'),
-		type: 'Website Template'
+		skills: getSkills('nodejs', 'go', 'redis', 'mongodb', 'aws', 'docker'),
+		type: 'SaaS Platform'
 	},
 	{
-		slug: 'slick-portfolio-svelte',
-		color: '#ff3e00',
+		slug: 'integrator-studio',
+		color: '#2563eb',
 		description:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+			'Developer-facing SaaS platform for external companies to manage apps, API keys, and integrations with Armada Delivery. Features include role-based access, credential lifecycle management, and real-time monitoring of integration status. Designed to streamline onboarding for third-party developers with an intuitive UI and secure API management.',
 		shortDescription:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
-		logo: Assets.Svelte,
-		name: 'Slick Portfolio',
+			'SaaS platform for managing API integrations with role-based access and real-time monitoring.',
+		links: [
+			{ to: 'https://studio.armadadelivery.com', label: 'Live Demo' },
+		],
+		logo: Assets.Unknown,
+		name: 'Integrator Studio',
 		period: {
-			from: new Date()
+			from: new Date(2023, 2, 1)
 		},
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
-		type: 'Website Template',
+		skills: getSkills('nextjs', 'go', 'mongodb', 'reactjs', 'ts'),
+		type: 'SaaS Platform'
+	},
+	{
+		slug: 'api-documentation-chatbot',
+		color: '#16a34a',
+		description:
+			'Interactive API documentation portal with an integrated AI-powered assistant that answers developer questions based on the API spec. Built to improve developer experience by combining searchable docs, real-time code examples, and natural language chatbot support. Supports versioning and seamless integration with internal API updates.',
+		shortDescription:
+			'Interactive API documentation with AI chatbot for enhanced developer experience.',
+		links: [
+			{ to: 'https://docs.armadadelivery.com', label: 'Live Demo' }
+		],
+		logo: Assets.Unknown,
+		name: 'Public API Documentation & AI Chatbot',
+		period: {
+			from: new Date(2023, 3, 1)
+		},
+		skills: getSkills('nodejs', 'aws', 'mongodb'),
+		type: 'Documentation Platform'
+	},
+	{
+		slug: 'business-app-saas',
+		color: '#dc2626',
+		description:
+			'SaaS platform for merchants to manage branches, delivery orders, and third-party integrations. Provides real-time order tracking, branch performance analytics, and integration with delivery partners. Designed with a scalable backend and optimized dashboards to support high-volume operations.',
+		shortDescription:
+			'Merchant platform for managing delivery operations with real-time tracking and analytics.',
+		links: [
+			{ to: 'https://business.armadadelivery.com', label: 'Live Demo' }
+		],
+		logo: Assets.Unknown,
+		name: 'Business App (SaaS)',
+		period: {
+			from: new Date(2023, 1, 1)
+		},
+		skills: getSkills('reactjs', 'nodejs', 'mongodb', 'redis'),
+		type: 'Business Platform'
+	},
+	{
+		slug: 'online-booking-website',
+		color: '#7c3aed',
+		description:
+			'Production-ready booking platform with real-time availability management, secure Stripe payments, and user-friendly dashboards. Includes an admin interface for service configuration, booking oversight, and customer data management. Optimized for performance and SEO using Next.js SSR.',
+		shortDescription:
+			'Booking platform with real-time availability, Stripe payments, and admin dashboard.',
+		links: [
+			{ to: 'https://salaktazur.com', label: 'Live Demo' }
+		],
+		logo: Assets.Unknown,
+		name: 'Online Booking Website',
+		period: {
+			from: new Date(2022, 8, 1)
+		},
+		skills: getSkills('nextjs', 'mongodb', 'stripe', 'reactjs', 'ts'),
+		type: 'Booking Platform'
+	},
+	{
+		slug: 'spare-parts-marketplace',
+		color: '#ea580c',
+		description:
+			'Full-featured e-commerce platform for spare parts, including inventory management, user authentication, and order lifecycle handling. Backend built with NestJS for modular scalability, integrated with React frontend for responsive user experience. Designed with extensibility in mind to support new features such as shipping modules and third-party integrations.',
+		shortDescription:
+			'E-commerce platform for spare parts with inventory management and order processing.',
+		links: [
+		],
+		logo: Assets.Unknown,
+		name: 'Spare Parts Marketplace',
+		period: {
+			from: new Date(2022, 5, 1)
+		},
+		skills: getSkills('nestjs', 'reactjs', 'mongodb', 'ts'),
+		type: 'E-commerce Platform'
+	},
+	{
+		slug: 'chat-application',
+		color: '#059669',
+		description:
+			'Real-time chat system with friend management, message history persistence, and reliable WebSocket communication. Backend written in Go for high concurrency support, paired with a React UI. Designed to handle thousands of concurrent users with low-latency messaging and horizontal scalability.',
+		shortDescription:
+			'Real-time chat application with friend management and message history.',
+		links: [
+			{ to: 'https://github.com/HichOoMa/chat-application-go', label: 'Backend' },
+			{ to: 'https://github.com/HichOoMa/ChatUI', label: 'Frontend' }
+		],
+		logo: Assets.Unknown,
+		name: 'Chat Application',
+		period: {
+			from: new Date(2022, 3, 1)
+		},
+		skills: getSkills('go', 'reactjs', 'mongodb', 'websocket'),
+		type: 'Real-time Application',
 		screenshots: [
 			{
-				label: 'screen 1',
-				src: 'https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60'
+				label: 'Chat Interface',
+				src: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hhdCUyMGFwcHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60'
 			},
 			{
-				label: '2',
-				src: 'https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60'
-			},
-			{
-				label: '3',
-				src: 'https://images.unsplash.com/photo-1537432376769-00f5c2f4c8d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
-			},
-			{
-				label: '4',
-				src: 'https://images.unsplash.com/photo-1542903660-eedba2cda473?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
-			},
-			{
-				label: '5',
-				src: 'https://images.unsplash.com/photo-1619410283995-43d9134e7656?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
-			},
-			{
-				label: '6',
-				src: 'https://images.unsplash.com/photo-1585079542156-2755d9c8a094?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
+				label: 'Friend Management',
+				src: 'https://images.unsplash.com/photo-1556075798-4825dfaaf498?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZnJpZW5kcyUyMGFwcHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60'
 			}
 		]
 	}

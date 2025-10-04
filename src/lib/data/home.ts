@@ -11,12 +11,12 @@ const hero: {
 } = {
 	title: `${BaseData.fullName},`,
 	description:
-		'lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+		'Full-stack web developer with a Master degree in computer science. Passionate about open-source technologies, cloud infrastructure, and real-time systems. Experienced in building scalable applications, contributing to business growth through technical excellence.',
 	links: [
-		{ label: 'GitHub', href: 'https://github.com', icon: 'i-carbon-logo-github' },
-		{ label: 'LinkedIn', href: 'https://linkedin.com', icon: 'i-carbon-logo-linkedin' },
-		{ label: 'Twitter', href: 'https://twitter.com', icon: 'i-carbon-logo-twitter' },
-		{ label: 'Email', href: 'mailto:riadh.adrani@pm.me', icon: 'i-carbon-at' }
+		{ label: 'GitHub', href: 'https://github.com/HichOoMa', icon: 'i-carbon-logo-github' },
+		{ label: 'LinkedIn', href: 'https://linkedin.com/in/haitham-bh', icon: 'i-carbon-logo-linkedin' },
+		{ label: 'Email', href: 'mailto:haitham.benhammouda@gmail.com', icon: 'i-carbon-at' },
+		{ label: 'Location', href: 'https://maps.google.com/?q=Sfax,Tunisia', icon: 'i-carbon-location' }
 	]
 };
 
