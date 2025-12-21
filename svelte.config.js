@@ -1,7 +1,8 @@
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
-const base = '/slick-portfolio-svelte-5';
+// Use base path only for GitHub Pages, not for Vercel
+const base = process.env.GITHUB_PAGES ? '/slick-portfolio-svelte-5' : '';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -15,7 +16,7 @@ const config = {
 		// See https://svelte.dev/docs/kit/adapters for more information about adapters.
 		adapter: adapter({ fallback: '404.html' }),
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? base : ''
+			base: base
 		}
 	}
 };
