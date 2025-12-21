@@ -4,6 +4,83 @@ import type { Project } from './types';
 
 const items: Array<Project> = [
 	{
+		slug: 'langup-education-management',
+		color: '#1E40AF',
+		description:
+			'Comprehensive education lesson management system with dual interfaces for administrators and teachers. Features robust financial tracking with multi-currency support, automated teacher earnings calculations based on customizable hourly rates, and expense management with approval workflows. Includes detailed student management with attendance tracking, payment status monitoring, and progress reporting. Built with role-based access control, audit trails, and automated notifications. Professional reporting capabilities with data visualization, CSV/PDF exports, and advanced analytics for business intelligence.',
+		shortDescription:
+			'Full-featured education management platform with financial tracking, student management, and automated reporting.',
+		links: [
+			{ to: 'http://langup.it.com', label: 'Live Demo' },
+		],
+		logo: Assets.Langup,
+		name: 'Langup - Education Management System',
+		period: {
+			from: new Date(2024, 0, 1),
+			to: new Date(2024, 11, 31)
+		},
+		skills: getSkills('reactjs', 'nodejs', 'mongodb', 'ts'),
+		type: 'Education Platform',
+		screenshots: [
+			{
+				label: 'Dashboard Overview',
+				src: '/screenshots/langup_1.png'
+			},
+			{
+				label: 'Teacher Management',
+				src: '/screenshots/langup_2.png'
+			},
+			{
+				label: 'Financial Tracking',
+				src: '/screenshots/langup_3.png'
+			},
+			{
+				label: 'Time Entry System',
+				src: '/screenshots/langup_4.png'
+			},
+			{
+				label: 'Expense Management',
+				src: '/screenshots/langup_5.png'
+			},
+			{
+				label: 'Student Management',
+				src: '/screenshots/langup_6.png'
+			},
+			{
+				label: 'Attendance Tracking',
+				src: '/screenshots/langup_7.png'
+			},
+			{
+				label: 'Payment Monitoring',
+				src: '/screenshots/langup_8.png'
+			},
+			{
+				label: 'Financial Reports',
+				src: '/screenshots/langup_9.png'
+			},
+			{
+				label: 'Analytics Dashboard',
+				src: '/screenshots/langup_10.png'
+			},
+			{
+				label: 'Lesson Types Configuration',
+				src: '/screenshots/langup_11.png'
+			},
+			{
+				label: 'User Profile Settings',
+				src: '/screenshots/langup_12.png'
+			},
+			{
+				label: 'Notification Center',
+				src: '/screenshots/langup_13.png'
+			},
+			{
+				label: 'System Settings',
+				src: '/screenshots/langup_14.png'
+			}
+		]
+	},
+	{
 		slug: 'crypto-analyser-trader-bot',
 		color: '#f7931e',
 		description:
