@@ -41,9 +41,9 @@
 	<CardHeader class="flex w-full flex-col gap-4">
 		<Avatar>
 			<AvatarFallback>
-				<img src={Assets.Unknown.light} alt={project.name} />
+				<img src={Assets.Unknown.light} alt={project.name} class="h-full w-full object-cover" />
 			</AvatarFallback>
-			<AvatarImage src={$mode === 'dark' ? project.logo.dark : project.logo.light} />
+			<AvatarImage src={$mode === 'dark' ? project.logo.dark : project.logo.light} class="h-full w-full object-cover" />
 		</Avatar>
 		<div class="flex w-full flex-row items-center gap-1 overflow-x-hidden">
 			<CardTitle class="h-auto min-w-0 flex-1 overflow-x-hidden">

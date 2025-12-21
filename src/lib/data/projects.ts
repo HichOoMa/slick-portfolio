@@ -20,7 +20,45 @@ const items: Array<Project> = [
 			to: new Date(2025, 11, 4)
 		},
 		skills: getSkills('nodejs', 'go', 'redis', 'mongodb', 'aws', 'docker'),
-		type: 'SaaS Platform'
+		type: 'SaaS Platform',
+		screenshots: [
+			{
+				label: 'Dashboard Overview',
+				src: '/screenshots/himonacci_1.png'
+			},
+			{
+				label: 'Market Analysis',
+				src: '/screenshots/himonacci_2.png'
+			},
+			{
+				label: 'Trading Signals',
+				src: '/screenshots/himonacci_3.png'
+			},
+			{
+				label: 'Backtesting Results',
+				src: '/screenshots/himonacci_4.png'
+			},
+			{
+				label: 'Portfolio Management',
+				src: '/screenshots/himonacci_5.png'
+			},
+			{
+				label: 'Real-time Analytics',
+				src: '/screenshots/himonacci_6.png'
+			},
+			{
+				label: 'Trading Bot Configuration',
+				src: '/screenshots/himonacci_7.png'
+			},
+			{
+				label: 'Performance Metrics',
+				src: '/screenshots/himonacci_8.png'
+			},
+			{
+				label: 'Advanced Settings',
+				src: '/screenshots/himonacci_9.png'
+			}
+		]
 	},
 	{
 		slug: 'integrator-studio',
@@ -70,7 +108,7 @@ const items: Array<Project> = [
 		links: [
 			{ to: 'https://business.armadadelivery.com', label: 'Live Demo' }
 		],
-		logo: Assets.Unknown,
+		logo: Assets.ArmadaBusiness,
 		name: 'Business App (SaaS)',
 		period: {
 			from: new Date(2024, 3, 15),

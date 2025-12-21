@@ -13,6 +13,7 @@ const Assets = {
 
 	// Companies
 	Armada: asset('armada.jpeg'),
+	ArmadaBusiness: asset('armada-business.png'),
 	Raizequard: asset('raiseguard.jpeg'),
 
 	// Projects
