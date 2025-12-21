@@ -149,14 +149,92 @@ const items: Array<Project> = [
 		links: [
 			{ to: 'https://salaktazur.com', label: 'Live Demo' }
 		],
-		logo: Assets.Unknown,
-		name: 'Online Booking Website',
+		logo: Assets.Salakta,
+		name: 'Salakta Azur',
 		period: {
 			from: new Date(2025, 3, 27),
-			to: new Date(2025, 11, 4)
+			to: new Date(2025, 6, 4)
 		},
 		skills: getSkills('nextjs', 'mongodb', 'stripe', 'reactjs', 'ts'),
-		type: 'Booking Platform'
+		type: 'Booking Platform',
+		screenshots: [
+			{
+				label: 'Homepage',
+				src: '/screenshots/salakta_1.png'
+			},
+			{
+				label: 'Booking Interface',
+				src: '/screenshots/salakta_2.png'
+			},
+			{
+				label: 'Service Selection',
+				src: '/screenshots/salakta_3.png'
+			},
+			{
+				label: 'Date & Time Selection',
+				src: '/screenshots/salakta_4.png'
+			},
+			{
+				label: 'Customer Details',
+				src: '/screenshots/salakta_5.png'
+			},
+			{
+				label: 'Payment Gateway',
+				src: '/screenshots/salakta_6.png'
+			},
+			{
+				label: 'Booking Confirmation',
+				src: '/screenshots/salakta_7.png'
+			},
+			{
+				label: 'Admin Dashboard',
+				src: '/screenshots/salakta_8.png'
+			},
+			{
+				label: 'Booking Management',
+				src: '/screenshots/salakta_9.png'
+			},
+			{
+				label: 'Service Configuration',
+				src: '/screenshots/salakta_10.png'
+			},
+			{
+				label: 'Availability Calendar',
+				src: '/screenshots/salakta_11.png'
+			},
+			{
+				label: 'Customer Management',
+				src: '/screenshots/salakta_12.png'
+			},
+			{
+				label: 'Analytics Overview',
+				src: '/screenshots/salakta_13.png'
+			},
+			{
+				label: 'Settings Panel',
+				src: '/screenshots/salakta_15.png'
+			},
+			{
+				label: 'Email Templates',
+				src: '/screenshots/salakta_16.png'
+			},
+			{
+				label: 'Payment Settings',
+				src: '/screenshots/salakta_17.png'
+			},
+			{
+				label: 'User Management',
+				src: '/screenshots/salakta_18.png'
+			},
+			{
+				label: 'Notification Settings',
+				src: '/screenshots/salakta_19.png'
+			},
+			{
+				label: 'System Logs',
+				src: '/screenshots/salakta_20.png'
+			}
+		]
 	},
 	{
 		slug: 'spare-parts-marketplace',

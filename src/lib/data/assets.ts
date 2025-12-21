@@ -19,6 +19,7 @@ const Assets = {
 	// Projects
 	gat3a: asset('9at3a-logo.png', '9at3a-logo-white.png'),
 	Himonacci: asset('himonacci-logo.png'),
+	Salakta: asset('salaktazur-light-logo.png', 'salaktazur-dark-logo.png'),
 
 	// Technologies
 	AWS: asset('aws.svg'),
