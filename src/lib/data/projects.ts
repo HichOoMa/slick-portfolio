@@ -166,14 +166,32 @@ const items: Array<Project> = [
 		links: [
 			{ to: 'https://docs.armadadelivery.com', label: 'Live Demo' }
 		],
-		logo: Assets.Unknown,
+		logo: Assets.ApiDocs,
 		name: 'Public API Documentation & AI Chatbot',
 		period: {
 			from: new Date(2024, 11, 1),
 			to: new Date(2025, 11, 4)
 		},
 		skills: getSkills('nodejs', 'aws', 'mongodb'),
-		type: 'Documentation Platform'
+		type: 'Documentation Platform',
+		screenshots: [
+			{
+				label: 'Documentation Home',
+				src: '/screenshots/api-docs_1.png'
+			},
+			{
+				label: 'API Reference',
+				src: '/screenshots/api-docs_2.png'
+			},
+			{
+				label: 'AI Chatbot Assistant',
+				src: '/screenshots/api-docs_3.png'
+			},
+			{
+				label: 'Code Examples',
+				src: '/screenshots/api-docs_4.png'
+			}
+		]
 	},
 	{
 		slug: 'business-app-saas',

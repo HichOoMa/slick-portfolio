@@ -21,6 +21,7 @@ const Assets = {
 	Himonacci: asset('himonacci-logo.png'),
 	Langup: asset('langup-logo.png'),
 	Salakta: asset('salaktazur-light-logo.png', 'salaktazur-dark-logo.png'),
+	ApiDocs: asset('docs-logo.png'),
 
 	// Technologies
 	AWS: asset('aws.svg'),
