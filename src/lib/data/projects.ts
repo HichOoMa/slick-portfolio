@@ -147,7 +147,7 @@ const items: Array<Project> = [
 		links: [
 			{ to: 'https://studio.armadadelivery.com', label: 'Live Demo' },
 		],
-		logo: Assets.Unknown,
+		logo: Assets.ApiDocs,
 		name: 'Integrator Studio',
 		period: {
 			from: new Date(2024, 8, 1),

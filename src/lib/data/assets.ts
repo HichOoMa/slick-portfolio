@@ -15,6 +15,7 @@ const Assets = {
 	Armada: asset('armada.jpeg'),
 	ArmadaBusiness: asset('armada-business.png'),
 	Raizequard: asset('raiseguard.jpeg'),
+	Freelance: asset('freelance.svg', 'freelance-dark.svg'),
 
 	// Projects
 	gat3a: asset('9at3a-logo.png', '9at3a-logo-white.png'),
