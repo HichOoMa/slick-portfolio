@@ -12,7 +12,7 @@ const items: Array<Experience> = [
 		contract: ContractType.Freelance,
 		type: 'Software Development',
 		location: 'Remote',
-		period: { from: new Date(2023, 6, 1) },
+		period: { from: new Date(2024, 6, 1) },
 		skills: getSkills('go', 'js', 'ts', 'reactjs', 'nodejs', 'python', 'mongodb', 'postgresql', 'docker', 'aws'),
 		name: 'Freelance Developer',
 		color: 'purple',

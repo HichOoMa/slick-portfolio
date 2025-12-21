@@ -304,7 +304,7 @@ const items: Array<Project> = [
 			from: new Date(2025, 3, 27),
 			to: new Date(2025, 6, 4)
 		},
-		skills: getSkills('nextjs', 'mongodb', 'stripe', 'reactjs', 'ts'),
+		skills: getSkills('nextjs', 'mongodb', 'stripe', 'reactjs', 'ts', 'github-actions'),
 		type: 'Booking Platform',
 		screenshots: [
 			{
