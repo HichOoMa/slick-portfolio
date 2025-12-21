@@ -232,7 +232,7 @@ const items = [
 		slug: 'github-actions',
 		color: 'black',
 		description: 'Proficient in GitHub Actions for CI/CD pipelines, automated testing, and deployment workflows.',
-		logo: Assets.Unknown,
+		logo: Assets.GitHub,
 		name: 'GitHub Actions',
 		category: 'devops'
 	}),
@@ -242,7 +242,7 @@ const items = [
 		slug: 'git',
 		color: 'orange',
 		description: 'Expert knowledge of Git version control for collaborative development and code management.',
-		logo: Assets.Unknown,
+		logo: Assets.Git,
 		name: 'Git',
 		category: 'tools'
 	}),
@@ -258,7 +258,7 @@ const items = [
 		slug: 'chrome-extensions',
 		color: 'yellow',
 		description: 'Experience building Chrome Extensions for web automation and enhanced browsing functionality.',
-		logo: Assets.Unknown,
+		logo: Assets.ChromeExtension,
 		name: 'Chrome Extensions',
 		category: 'tools'
 	}),
@@ -266,7 +266,7 @@ const items = [
 		slug: 'stripe',
 		color: 'purple',
 		description: 'Experienced with Stripe payment integration for secure online transactions and subscription management.',
-		logo: Assets.Unknown,
+		logo: Assets.Stripe,
 		name: 'Stripe',
 		category: 'tools'
 	}),
@@ -282,7 +282,7 @@ const items = [
 		slug: 'oauth',
 		color: 'green',
 		description: 'Experienced with OAuth2 authentication and authorization systems for secure API access.',
-		logo: Assets.Unknown,
+		logo: Assets.OAuth,
 		name: 'OAuth2',
 		category: 'tools'
 	})
