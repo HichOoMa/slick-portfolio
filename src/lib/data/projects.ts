@@ -16,7 +16,8 @@ const items: Array<Project> = [
 		logo: Assets.Unknown,
 		name: 'Crypto Analyser & Trader Bot',
 		period: {
-			from: new Date(2023, 0, 1)
+			from: new Date(2025, 2, 15),
+			to: new Date(2025, 11, 4)
 		},
 		skills: getSkills('nodejs', 'go', 'redis', 'mongodb', 'aws', 'docker'),
 		type: 'SaaS Platform'
@@ -34,7 +35,8 @@ const items: Array<Project> = [
 		logo: Assets.Unknown,
 		name: 'Integrator Studio',
 		period: {
-			from: new Date(2023, 2, 1)
+			from: new Date(2024, 8, 1),
+			to: new Date(2025, 11, 4)
 		},
 		skills: getSkills('nextjs', 'go', 'mongodb', 'reactjs', 'ts'),
 		type: 'SaaS Platform'
@@ -52,7 +54,8 @@ const items: Array<Project> = [
 		logo: Assets.Unknown,
 		name: 'Public API Documentation & AI Chatbot',
 		period: {
-			from: new Date(2023, 3, 1)
+			from: new Date(2024, 11, 1),
+			to: new Date(2025, 11, 4)
 		},
 		skills: getSkills('nodejs', 'aws', 'mongodb'),
 		type: 'Documentation Platform'
@@ -70,10 +73,33 @@ const items: Array<Project> = [
 		logo: Assets.Unknown,
 		name: 'Business App (SaaS)',
 		period: {
-			from: new Date(2023, 1, 1)
+			from: new Date(2024, 3, 15),
+			to: new Date(2025, 11, 4)
 		},
 		skills: getSkills('reactjs', 'nodejs', 'mongodb', 'redis'),
-		type: 'Business Platform'
+		type: 'Business Platform',
+		screenshots: [
+			{
+				label: 'Dashboard Overview',
+				src: '/screenshots/business_1.png'
+			},
+			{
+				label: 'Order Management',
+				src: '/screenshots/business_2.png'
+			},
+			{
+				label: 'Branch Analytics',
+				src: '/screenshots/business_3.png'
+			},
+			{
+				label: 'Integration Settings',
+				src: '/screenshots/business_4.png'
+			},
+			{
+				label: 'Real-time Tracking',
+				src: '/screenshots/business_5.png'
+			}
+		]
 	},
 	{
 		slug: 'online-booking-website',
@@ -88,7 +114,8 @@ const items: Array<Project> = [
 		logo: Assets.Unknown,
 		name: 'Online Booking Website',
 		period: {
-			from: new Date(2022, 8, 1)
+			from: new Date(2025, 3, 27),
+			to: new Date(2025, 11, 4)
 		},
 		skills: getSkills('nextjs', 'mongodb', 'stripe', 'reactjs', 'ts'),
 		type: 'Booking Platform'
@@ -102,13 +129,40 @@ const items: Array<Project> = [
 			'E-commerce platform for spare parts with inventory management and order processing.',
 		links: [
 		],
-		logo: Assets.Unknown,
-		name: 'Spare Parts Marketplace',
+		logo: Assets.gat3a,
+		name: '9at3a TN - Spare Parts Marketplace',
 		period: {
-			from: new Date(2022, 5, 1)
+			from: new Date(2025, 2, 1),
+			to: new Date(2025, 11, 4)
 		},
 		skills: getSkills('nestjs', 'reactjs', 'mongodb', 'ts'),
-		type: 'E-commerce Platform'
+		type: 'E-commerce Platform',
+		screenshots: [
+			{
+				label: 'Homepage',
+				src: '/screenshots/9at3a_1.png'
+			},
+			{
+				label: 'Product Listing',
+				src: '/screenshots/9at3a_2.png'
+			},
+			{
+				label: 'Product Details',
+				src: '/screenshots/9at3a_3.png'
+			},
+			{
+				label: 'Shopping Cart',
+				src: '/screenshots/9at3a_4.png'
+			},
+			{
+				label: 'Admin Dashboard',
+				src: '/screenshots/9at3a_5.png'
+			},
+			{
+				label: 'Order Management',
+				src: '/screenshots/9at3a_6.png'
+			}
+		]
 	},
 	{
 		slug: 'chat-application',
@@ -124,7 +178,8 @@ const items: Array<Project> = [
 		logo: Assets.Unknown,
 		name: 'Chat Application',
 		period: {
-			from: new Date(2022, 3, 1)
+			from: new Date(2023, 3, 1),
+			to: new Date(2025, 11, 4)
 		},
 		skills: getSkills('go', 'reactjs', 'mongodb', 'websocket'),
 		type: 'Real-time Application',

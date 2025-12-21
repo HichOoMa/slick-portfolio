@@ -7,6 +7,18 @@ const asset = (lightFilename: string, darkFilename = lightFilename) => {
 };
 
 const Assets = {
+	// Educational Institutions
+	FST: asset('fst.png'),
+	ISI: asset('isi.png'),
+
+	// Companies
+	Armada: asset('armada.jpeg'),
+	Raizequard: asset('raiseguard.jpeg'),
+
+	// Projects
+	gat3a: asset('9at3a-logo.png', '9at3a-logo-white.png'),
+
+	// Technologies
 	AWS: asset('aws.svg'),
 	Bootstrap: asset('bootstrap.svg'),
 	C: asset('c.svg'),

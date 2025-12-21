@@ -21,7 +21,7 @@ const items: Array<Experience> = [
 			{ to: 'https://docs.armadadelivery.com', label: 'API Documentation' },
 			{ to: 'https://studio.armadadelivery.com', label: 'Integrator Studio' }
 		],
-		logo: Assets.Unknown,
+		logo: Assets.Armada,
 		shortDescription: 'Full-stack development for delivery and logistics platform using Go, Node.js, and React.'
 	},
 	{
@@ -36,7 +36,7 @@ const items: Array<Experience> = [
 		name: 'Backend Developer',
 		color: 'green',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.Raizequard,
 		shortDescription: 'Backend development with OAuth2 authentication and MySQL optimization.'
 	}
 ];
