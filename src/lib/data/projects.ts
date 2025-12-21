@@ -13,7 +13,7 @@ const items: Array<Project> = [
 		links: [
 			{ to: 'https://himonacci.space', label: 'Live Demo' },
 		],
-		logo: Assets.Unknown,
+		logo: Assets.Himonacci,
 		name: 'Crypto Analyser & Trader Bot',
 		period: {
 			from: new Date(2025, 2, 15),
