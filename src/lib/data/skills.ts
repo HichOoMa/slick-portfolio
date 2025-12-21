@@ -274,7 +274,7 @@ const items = [
 		slug: 'mysql',
 		color: 'blue',
 		description: 'Proficient in MySQL database design, optimization, and complex query development.',
-		logo: Assets.Unknown,
+		logo: Assets.MySQL,
 		name: 'MySQL',
 		category: 'db'
 	}),

@@ -64,6 +64,7 @@ const Assets = {
 	ExpressJs: asset('express.png'),
 	JavaScript: asset('js.png'),
 	Fastify: asset('fastify.svg', 'fastify-dark.png'),
+	MySQL: asset('MySQL-logo.png'),
 	NestJs: asset('nest.svg'),
 	Quasar: asset('quasar.svg'),
 	SolidJs: asset('solid.svg'),
