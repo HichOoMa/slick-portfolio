@@ -154,7 +154,61 @@ const items: Array<Project> = [
 			to: new Date(2025, 11, 4)
 		},
 		skills: getSkills('nextjs', 'go', 'mongodb', 'reactjs', 'ts'),
-		type: 'SaaS Platform'
+		type: 'SaaS Platform',
+		screenshots: [
+			{
+				label: 'Credential Management',
+				src: '/screenshots/integration-studio_5.png'
+			},
+			{
+				label: 'Access Control',
+				src: '/screenshots/integration-studio_6.png'
+			},
+			{
+				label: 'Real-time Monitoring',
+				src: '/screenshots/integration-studio_7.png'
+			},
+			{
+				label: 'Developer Portal',
+				src: '/screenshots/integration-studio_8.png'
+			},
+			{
+				label: 'Integration Details',
+				src: '/screenshots/integration-studio_9.png'
+			},
+			{
+				label: 'API Documentation',
+				src: '/screenshots/integration-studio_10.png'
+			},
+			{
+				label: 'Security Settings',
+				src: '/screenshots/integration-studio_11.png'
+			},
+			{
+				label: 'Webhook Configuration',
+				src: '/screenshots/integration-studio_12.png'
+			},
+			{
+				label: 'Usage Analytics',
+				src: '/screenshots/integration-studio_13.png'
+			},
+			{
+				label: 'Team Management',
+				src: '/screenshots/integration-studio_14.png'
+			},
+			{
+				label: 'API Logs',
+				src: '/screenshots/integration-studio_15.png'
+			},
+			{
+				label: 'Notification Settings',
+				src: '/screenshots/integration-studio_16.png'
+			},
+			{
+				label: 'Advanced Configuration',
+				src: '/screenshots/integration-studio_17.png'
+			}
+		]
 	},
 	{
 		slug: 'api-documentation-chatbot',
