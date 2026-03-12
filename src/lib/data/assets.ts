@@ -12,6 +12,7 @@ const Assets = {
 	ISI: asset('isi.png'),
 
 	// Companies
+	Sparow: asset('sparow.png'),
 	Armada: asset('armada.jpeg'),
 	ArmadaBusiness: asset('armada-business.png'),
 	Raizequard: asset('raiseguard.jpeg'),

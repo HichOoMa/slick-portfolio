@@ -6,6 +6,21 @@ const title = 'Experience';
 
 const items: Array<Experience> = [
 	{
+		slug: 'sparow-fullstack-developer',
+		company: 'Sparow Solutions',
+		description: 'Contributed to the development and maintenance of the Sparow ecosystem, building scalable services and real-time applications. Designed and implemented backend services and database migrations using Golang and MySQL. Developed multiple mobile applications for different stakeholders including restaurant, customer, and driver platforms. Built and maintained modern web interfaces using React.js and Next.js. Containerized services and development environments using Docker to ensure consistent deployment. Collaborated with product and engineering teams to deliver reliable features across the Sparow platform.',
+		contract: ContractType.FullTime,
+		type: 'Software Development',
+		location: 'Remote',
+		period: { from: new Date(2025, 9, 1) },
+		skills: getSkills('go', 'mysql', 'reactjs', 'nextjs', 'docker', 'flutter'),
+		name: 'Full-stack Developer',
+		color: 'green',
+		links: [],
+		logo: Assets.Sparow,
+		shortDescription: 'Full-stack development for the Sparow ecosystem, building backend services, mobile apps, and web interfaces.'
+	},
+	{
 		slug: 'freelance-developer',
 		company: 'Freelance',
 		description: 'Delivered custom web and mobile solutions for diverse clients across various industries during spare time. Developed full-stack applications using modern technologies including React, Node.js, and Python. Collaborated directly with clients to gather requirements, provide technical consultation, and deliver solutions that exceed expectations. Managed complete project lifecycles from initial concept to deployment and maintenance. Built responsive, user-friendly interfaces and scalable backend systems. Configured and managed cloud infrastructure on AWS and other platforms, implementing CI/CD pipelines for automated testing and deployment. Containerized applications using Docker and orchestrated deployments for improved scalability and reliability. Set up monitoring, logging, and backup solutions to ensure system stability and data integrity. Handled multiple concurrent projects while maintaining high code quality and meeting tight deadlines. Gained valuable experience in client communication, project estimation, and delivering business value through technology.',
@@ -27,7 +42,7 @@ const items: Array<Experience> = [
 		contract: ContractType.FullTime,
 		type: 'Software Development',
 		location: 'Remote',
-		period: { from: new Date(2023, 1, 1) },
+		period: { from: new Date(2023, 1, 1), to: new Date(2026, 2, 11) },
 		skills: getSkills('js', 'ts', 'go', 'reactjs', 'nodejs', 'mongodb', 'redis', 'aws', 'docker'),
 		name: 'Full-stack Developer',
 		color: 'blue',
@@ -46,7 +61,7 @@ const items: Array<Experience> = [
 		contract: ContractType.FullTime,
 		type: 'Backend Development',
 		location: 'Remote',
-		period: { from: new Date(2022, 5, 1), to: new Date(2023, 0, 31) },
+		period: { from: new Date(2022, 0, 1), to: new Date(2023, 0, 31) },
 		skills: getSkills('nodejs', 'postgresql'),
 		name: 'Backend Developer',
 		color: 'green',
