@@ -14,7 +14,7 @@ const items: Array<Experience> = [
 		location: 'Remote',
 		period: { from: new Date(2025, 9, 1) },
 		skills: getSkills('go', 'mysql', 'reactjs', 'nextjs', 'docker', 'flutter'),
-		name: 'Full-stack Developer',
+		name: 'Senior Full-stack Developer',
 		color: 'green',
 		links: [],
 		logo: Assets.Sparow,
